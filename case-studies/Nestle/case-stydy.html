@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab-based Content</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../../Css/style.css">
+  <link rel="stylesheet" href="../../Css/responsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header position-sticky top-0 z-index-3">
+    <div class="row mx-0">
+        <div class="col-md-12 px-0">
+            <div class="inr-header">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+                    <div class="container-fluid px-0">
+                      <a class="navbar-brand" href="../../index.html"><img src="../../images/Group 111.svg" class="w-50"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../../product-meet-mag.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu mega-menu">
+                                        <div class="magtile">
+                                            <li><a class="dropdown-item" href="../../product-meet-mag.html">Mag</a></li>
+                                        </div>
+                                        <div class="fleettile">
+                                            <li><a class="dropdown-item" href="../../product-mag.html">SyncOS™</a></li>
+                                        <li><a class="dropdown-item" href="../../product-manager.html">SyncOS™ Fleet Manager</a></li>
+                                        <li><a class="dropdown-item" href="../../product-indegrator.html">Syncos™ Integrator</a></li>
+                                        </div>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Use Cases
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="../../solution-end-of-line.html">End-of-Line (EoL) Operations</a></li>
+                                  <li><a class="dropdown-item" href="inbound-and-outbound.html">Inbound and Outbound Warehouse Operations</a></li>
+                                  <li><a class="dropdown-item" href="../../automated-material.html">Material Transfer to and from Production Lines</a></li>
+                                  <li><a class="dropdown-item" href="../../automated-storage.html">Material Transfer to and from Automated Storage</a></li>
+                                  <li><a class="dropdown-item" href="../../box-packing.html">Box Packaging and Preparation</a></li>
+                                </ul>
+                              </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Industries
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="../../industry-fmcg.html">FMCG and F&B</a></li>
+                              <li><a class="dropdown-item" href="../../automotive-industry.html">Automotive and Heavy Machinery </a></li>
+                              <li><a class="dropdown-item" href="../../distribution.html">Distribution Centers</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu mega-menu">
+                                <div class="blogtile">
+                                    <li><a class="dropdown-item text-capitalize" href="../../blog.html">Blogs</a></li>
+                                    <li><a class="dropdown-item" href="../../case-study.html">Case Studies</a></li>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../partner-with-us.html"> Partner with Botsync</a></li>
+                                    <li><a class="dropdown-item" href="../../careers.html">Careers</a></li>
+                                </div>
+                              <div class="newstile">
+                                <li><a class="dropdown-item" href="../../news.html">News</a></li>
+                                    <li><a class="dropdown-item" href="../../reports.html">Reports and Whitepapers</a></li>
+                                    <li><a class="dropdown-item" href="../../events.html">Events and Webinars</a></li>
+                              </div>
+                            </ul>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="../../about.html">About Us</a>
+                          </li>
+                        </ul>
+                        <div class="ryt-btn">
+                            <a href="../../contact-us.html">Contact us <img src="../../images/Frame 1437254513.svg"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</header>
+  <div class="container">
+    <!-- Image Section -->
+    <div class="image-section">
+      <img src="../Assets/hero-images/nestle.png" alt="Warehouse" class="background-image">
+      <div class="tabs-container">
+        <!-- Left Arrow -->
+        <button class="arrow left-arrow" onclick="slideTabs('left')">&lt;</button>
+        
+        <div class="tab-width">
+          <!-- Tabs -->
+          <div class="tabs" id="tabs">
+              <a href="#overview"><button class="tab active" data-content="client-overview">Client Overview</button></a>
+              <a href="#problem"><button class="tab" data-content="the-problem">The Problem</button></a>
+              <a href="#solution"><button class="tab" data-content="our-solution">Our Solution</button></a>
+              <a href="#impact"><button class="tab" data-content="impact-on-operations">Impact on Operations</button></a>
+              <a href="#conclusion"><button class="tab" data-content="conclusion">Conclusion</button></a>
+          </div>
+        </div>
+        
+        <!-- Right Arrow -->
+        <button class="arrow right-arrow" onclick="slideTabs('right')">&gt;</button>
+    </div>
+    
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section" id="overview">
+        <div class="content-container">
+            <div class="statistics web-statistics">
+                <div class="upper-stats">
+                    <div class="stat-item upper--stat">
+                        <span class="stat-header">77</span>
+                        <span class="upper-stat-helper">Full Pallets Per Hour
+                        </span>
+                    </div>
+                    <div class="stat-item upper--stat">
+                        <span class="stat-header">7</span>
+                        <span class="upper-stat-helper">reduction of forklifts and 21 forklift operators
+                        </span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-header">12</span>
+                    <span class="stat-helper">Fleet of AMRs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-header">24/7</span>
+                    <span class="stat-helper">Operations with 99% uptime
+                    </span>
+                </div>
+            </div>
+                <h1 class="main-heading">Transforming End-of-Line Operations for a Global Food & Beverage Giant using MAG1000 Conveyor Solution</h1>
+                <p>
+                  Our client is a Fortune 500 food and beverage conglomerate, headquartered in Europe. The company has a global footprint of over 400 factories in more than 150 countries, and employs over 300,000 people. As part of their automation roadmap, they sought to automate their end of line operations at a key factory in India. They needed a reliable automation partner to ensure safety, flexibility, and efficiency in automating their end-of-line processes.
+                </p>
+                <div class="statistics mobile-statistics">
+                  <div class="upper-stats">
+                      <div class="stat-item upper--stat">
+                          <span class="stat-header">77</span>
+                          <span class="upper-stat-helper">Full Pallets Per Hour
+                          </span>
+                      </div>
+                      <div class="stat-item upper--stat">
+                          <span class="stat-header">7</span>
+                          <span class="upper-stat-helper">reduction of forklifts and 21 forklift operators
+                          </span>
+                      </div>
+                  </div>
+                  <div class="stat-item">
+                      <span class="stat-header">12</span>
+                      <span class="stat-helper">Fleet of AMRs</span>
+                  </div>
+                  <div class="stat-item">
+                      <span class="stat-header">24/7</span>
+                      <span class="stat-helper">Operations with 99% uptime
+                      </span>
+                  </div>
+              </div>
+                <h2 id="problem">The Problem</h2>
+                <p>Due to high production volumes, the factory required numerous forklifts in a confined space, creating significant safety risks. Maintaining business continuity was also a challenge, as it required staffing for three shifts 24/7, which led to high costs and labor availability concerns. In addition, the client wanted to reduce human touchpoints to maintain quality and hygiene standards. Traditional conveyor systems were too rigid and limited the client’s ability to scale or remain agile.
+                </p>
+                <h2 id="solution">Our Solution</h2>
+                <p class="special-para">
+                  Integrated MAG1000 Conveyor Solution
+                </p>
+                <p>
+                  Botsync worked with our partners to deploy an integrated AMR solution that could automate the transfer of Finished Goods (FG) pallets to the warehouse, safely and reliably.
+                </p>
+                <p>
+                  Packaged food products coming out of 4 production lines are palletized by 12 separate robotic arms. As soon as a pallet is ready, the MAG1000 system is automatically assigned to pick it up and transfer it to the outbound conveyors. In parallel, another MAG1000 transfers empty pallets to the palletization station to ensure there is zero downtime. With this system, a fleet of 12 MAG1000s managed an overall throughput of 77 FG pallets per hour.
+                </p>
+        </div>
+
+            <!-- Statistics Section -->
+        
+      
+    </div>
+
+  </div>
+  <div class="key-features">
+    <div class="key-wrapper">
+        <span class="key-heading">Key Features</span>
+        <div class="expandable-rows">
+          <!-- Row 1 -->
+          <div class="row open">
+            <div class="row-header" onclick="toggleContent(this)">
+              <span>Accurate and safe conveyor transfer</span>
+              <span class="arrow-expand"><img src="../Assets/icons/Element - Arrow.svg"/></span>
+            </div>
+            <div class="row-content">
+              <div class="feature-section">
+                <div class="feature-content">
+                  <h2>Accurate and safe conveyor transfer</h2>
+                  <p>
+                    The solution was specifically designed to adapt to existing conveyors and operate in the confined space, and was able to safely and consistently ensure the transfer of the pallet from the palletisation station to the drop-off conveyors using the fleet of AMRs.
+                  </p>
+                </div>
+                <div class="feature-image">
+                  <img src="../Assets/hero-images/key.png" alt="MAG Fleet">
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Row 2 -->
+          <div class="row">
+            <div class="row-header" onclick="toggleContent(this)">
+              <span>Highly integrated & fully automated</span>
+              <span class="arrow-expand"><img src="../Assets/icons/Element - Arrow.svg"/></span>
+
+            </div>
+            <div class="row-content">
+              <div class="feature-section">
+                <div class="feature-content">
+                  <h2>Highly integrated & fully automated</h2>
+                  <p>
+                    The SyncOS™ integrator connected the palletization station, empty pallet dispensers, and drop-off conveyors, enabling the entire process to run without human intervention.
+                  </p>
+                </div>
+                <div class="feature-image">
+                  <img src="../Assets/hero-images/key.png" alt="MAG Fleet">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-header" onclick="toggleContent(this)">
+              <span>Agile and flexible design</span>
+              <span class="arrow-expand"><img src="../Assets/icons/Element - Arrow.svg"/></span>
+
+            </div>
+            <div class="row-content">
+              <div class="feature-section">
+                <div class="feature-content">
+                  <h2>Agile and flexible design</h2>
+                  <p>
+                    The agile nature of MAG1000 and the no-code SyncOS™ platform allowed the client to change task prioritization, drop-off locations, and rules on the go, providing the flexibility that would not have been possible with a traditional conveyor system.
+                  </p>
+                </div>
+                <div class="feature-image">
+                  <img src="../Assets/hero-images/key.png" alt="MAG Fleet">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-header" onclick="toggleContent(this)">
+              <span>Intelligent orchestration</span>
+              <span class="arrow-expand"><img src="../Assets/icons/Element - Arrow.svg"/></span>
+
+            </div>
+            <div class="row-content">
+              <div class="feature-section">
+                <div class="feature-content">
+                  <h2>Intelligent orchestration</h2>
+                  <p>
+                    Operating in a congested environment with multiple AMRs, the solution required advanced fleet management with intelligent task prioritization. Thanks to SyncOS™, we were able to prioritize tasks based on each machine’s capacity and restrictions, to ensure optimal utilization of their capacity.
+                  </p>
+                </div>
+                <div class="feature-image">
+                  <img src="../Assets/hero-images/key.png" alt="MAG Fleet">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="impact" id="impact">
+    <div class="impact-heading">
+        Impact On Operations
+    </div>
+
+    <div class="impact-boxes">
+      <div class="primary-impact">
+        <p>
+          <ul>
+            <li class="key-points">Reduced need for extensive forklifts deployments, which lowered safety risks.
+            </li>
+            <li class="key-points">Reduction of  7 forklift drivers and 21 forklift operators, which led to a maintenance of production throughput with minimum human resources.
+            </li>
+            <li class="key-points">Improved trackability of inventory by ensuring all pallet IDs are tracked throughout the transfer process to the warehouse.
+            </li>
+          </ul>
+      </p>
+      </div>
+  </div>
+  </div>
+
+  <div class="conclusion" id="conclusion">
+    <div class="conclusion-wrapper">
+        <div class="conclusion-header">
+            Conclusion
+        </div>
+        <div class="conclusion-content">
+          The deployment of the MAG1000 AMR system at the client’s facility transformed their operations, providing the agility, safety, and scalability needed to meet increasing production demands. The system not only optimized labor resources but also enhanced product handling quality, setting a new benchmark for end-of-line automation in the food and beverage industry.
+        </div>
+    </div>
+  </div>
+  <section class="case-study" data-aos="fade-up" data-aos-delay="100">
+    <div class="container">
+        <div class="row align-items-center case-study-header">
+            <div class="col-md-6" style="width: auto">
+                <div class="inr-lft">
+                    <h2>Case Studies</h2>
+                </div>
+            </div>
+            <div class="col-md-6" style="width: auto">
+                <div class="inr-ryt">
+                    <div class="d-flex align-items-center justify-content-end gap-3 cursor-pointer">
+                        <img src="../../images/swiper-next.svg" class="swiper-prev">
+                        <img src="../../images/swiper-prev.svg" class="swiper-next">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="case-study-slider">
+                    <div class="swiper caseStudy">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="../Alcon/case-stydy.html"><img src="../../images/20.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../Ashok_leyland/case-stydy.html"><img src="../../images/21.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../AutoLiv/case-stydy.html"><img src="../../images/22.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../Bollore/case-stydy.html"><img src="../../images/23.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../CCIPL/case-stydy.html"><img src="../../images/24.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../Global automaker 1/case-stydy.html"><img src="../../images/25.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../Global automaker 2/case-stydy.html"><img src="../../images/26.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="./case-stydy.html"><img src="../../images/27.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../Parkeh/case-stydy.html"><img src="../../images/28.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="../PT Tri Centrum Fortuna/case-stydy.html"><img src="../../images/29.png" /></a>
+                            </div>
+                            <!-- <div class="swiper-slide">
+                                <img src="images/13.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/12.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/11.png" />
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <footer class="main-ftr" data-aos="fade-up" data-aos-delay="100">
+    <div class="ftr-bg container">
+        <div class="row mx-0">
+            <div class="col-lg-4 col-md-6 px-0">
+                <div class="inr-ftr-logo">
+                    <img src="../../images/Group 111 (1).svg" />
+                    <p>We develop integrated automation solutions through our no-code integration tool, syncOS, to enable companies achieve higher degree of agility in their manufacturing operations.</p>
+                </div>
+                <div class="social-icons">
+                    <a target="_blank" href="https://linkedin.com/company/botsync">
+                        <img src="../../images/linkedin.svg" />
+                    </a>
+                    <a target="_blank" href="https://x.com/botsyncpteltd">
+                        <img src="../../images/twitter.svg" />
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/botsync.co/">
+                        <img src="../../images/Instagram.svg" />
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/@botsync4067">
+                        <img src="../../images/Youtube.svg" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 px-0">
+                <div class="inr-ftr-logo">
+                    <h4>Location</h4>
+                    <div class="main-adderss">
+                        <div class="inr-adderss">
+                            <p><strong>Singapore</strong></p>
+                            <p>79 Joo Koon CircleLevel 2 Wong Fong BuildingSingapore 629107</p>
+                        </div>
+                        <div class="inr-adderss">
+                            <p><strong>India</strong></p>
+                            <p>Plot No. 10C, KIADB Industrial Area, Electronic City Phase 2, Hosur Road, Bangalore 560100 India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 px-0">
+                <div class="inr-ftr-logo">
+                    <h4>Quick Links</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="../../product-mag.html">Products</a></li>
+                            <li><a href="../../solution-end-of-line.html">Use Cases</a></li>
+                            <li><a href="../../industry-fmcg.html">Industries</a></li>
+                            <li><a href="../../careers.html">Resources</a></li>
+                            <li><a href="../../about.html">About Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 px-0">
+                <div class="inr-ftr-logo ryt-btn">
+                    <a href="./contact-us.html">Contact us <img src="../../images/Frame 1437254513.svg" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="row Copyright">
+            <div class="col-md-6">
+                <div class="main-copyright">
+                    <div class="inr-lft">
+                        <p>Copyright © 2024. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main-copyright">
+                    <div class="inr-ryt">
+                        <ul>
+                            <li><a target="_blank" href="https://www.botsync.co/assets/pdf/terms_use_botsync.pdf">Terms & Conditions</a></li>
+                            <li><a target="_blank" href="https://www.botsync.co/assets/pdf/privacy_policy_botsync.pdf">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+var swiper = new Swiper(".caseStudy", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-next",
+        prevEl: ".swiper-prev",
+    },
+  });
+</script>
+</body>
+</html>

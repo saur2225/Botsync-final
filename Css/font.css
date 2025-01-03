@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Namian';
+    src: url('../fonts/Namian-Regular.eot'); /* IE9 Compatibility */
+    src: url('../fonts/Namian-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Namian-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Namian-Regular.woff') format('woff'), /* Older Browsers */
+         url('../fonts/Namian-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Namian-Regular.svg#Namian-Regular') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Namian-Medium';
+    src: url('../fonts/Namian-Medium.eot'); /* IE9 Compatibility */
+    src: url('../fonts/Namian-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Namian-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Namian-Medium.woff') format('woff'), /* Older Browsers */
+         url('../fonts/Namian-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Namian-Medium.svg#Namian-Regular') format('svg'); /* Legacy iOS */
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Namian-Semibold';
+    src: url('../fonts/Namian-Semibold.eot'); /* IE9 Compatibility */
+    src: url('../fonts/Namian-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Namian-Semibold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Namian-Semibold.woff') format('woff'), /* Older Browsers */
+         url('../fonts/Namian-Semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Namian-Semibold.svg#Namian-Regular') format('svg'); /* Legacy iOS */
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Namian-Bold';
+    src: url('../fonts/Namian-Bold.eot'); /* IE9 Compatibility */
+    src: url('../fonts/Namian-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Namian-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Namian-Bold.woff') format('woff'), /* Older Browsers */
+         url('../fonts/Namian-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Namian-Bold.svg#Namian-Regular') format('svg'); /* Legacy iOS */
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Namian-ExtraBold';
+    src: url('../fonts/Namian-ExtraBold.eot'); /* IE9 Compatibility */
+    src: url('../fonts/Namian-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Namian-ExtraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Namian-ExtraBold.woff') format('woff'), /* Older Browsers */
+         url('../fonts/Namian-ExtraBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Namian-ExtraBold.svg#Namian-Regular') format('svg'); /* Legacy iOS */
+    font-weight: 800;
+    font-style: normal;
+}

@@ -1,0 +1,675 @@
+@media(min-width:768px) and (max-width:1024px){
+    h2 {
+        font-size: 32px !important;
+        font-weight: 700 !important;
+        line-height: 44px !important;
+    }
+    ul.navbar-nav {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+        gap: 10px;
+        list-style: none;
+        margin: 0;
+    }
+    button.navbar-toggler {
+        background: #ffff;
+    }
+    .inr-header .col-md-8 {
+        display: none;
+        width: 30%;
+    }
+    .inr-header .col-md-2.px-0.text-end {
+        width: 30%;
+    }
+    .inr-header .row.mx-0.align-items-center {
+        justify-content: space-between;
+    }
+    header.main-header {
+        padding: 17px 20px;
+    }
+    .inr-bnanner-text h1 {
+        font-size: 62px;
+        line-height: 70px;
+    }
+    .inr-bnanner-text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .inr-counter-card h3 {
+        font-size: 66px;
+        line-height: 62px;
+    }
+    .inr-counter-card {
+        padding: 22px;
+    }
+    .inr-counter-card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    section.amr-deployed {
+        margin: 70px 0;
+    }
+    .accordian-card.active {
+        padding: 30px 14px 60px;
+    }
+    .accordian-card.active h2 {
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .accordian-card.active p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 15px 0 25px;
+    }
+    .accordian-card h2 {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    .accordian-card a img {
+        width: 22px;
+    }
+    .custom-card p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 5px 0 13px;
+    }
+    section.get-in-touch .contact-form h2 {
+        font-size: 79.95px !important;
+        font-weight: 600;
+        line-height: 120px !important;
+        text-align: center;
+    }
+    .contact-form form label {
+        width: calc(33% - 12px);
+    }
+    section.get-in-touch {
+        background: #FEFCEF;
+        padding: 70px 0;
+    }
+    section.faqs-main {
+        margin: 70px 0 0;
+    }
+    .accordion-item .accordion-body {
+        font-size: 16px;
+        line-height: 26.6px;
+    }
+    .accordion-item button {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    section.industry-cards .col-lg-4:nth-child(2) {
+        margin: 20px 0;
+    }
+    section.on-hover-card-show .col-lg:hover {
+        max-width: 100% !important;
+        flex: none;
+    }
+    section.on-hover-card-show .row {
+        row-gap: 20px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .btm-pic img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    h2 {
+        font-size: 26px !important;
+        font-weight: 700 !important;
+        line-height: 32px !important;
+    }
+    header.main-header ul.dropdown-menu.show li.dropdown a {
+        padding: 2px 18px;
+    }
+    header.main-header ul.dropdown-menu.show a.dropdown-item {
+        word-wrap: break-word;
+        white-space: break-spaces;
+    }
+    .inr-header .col-md-8 {
+        display: none;
+        width: 30%;
+    }
+    .inr-header .col-md-2.px-0.text-end {
+        display: none;
+    }
+    .inr-header .row.mx-0.align-items-center {
+        justify-content: space-between;
+    }
+    header.main-header {
+        padding: 17px 20px;
+    }
+    .inr-bnanner-text h1 {
+        font-size: 62px;
+        line-height: 70px;
+    }
+    .inr-bnanner-text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .inr-counter-card h3 {
+        font-size: 66px;
+        line-height: 62px;
+        text-align: center;
+    }
+    .inr-counter-card {
+        padding: 22px;
+    }
+    .inr-counter-card p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    section.amr-deployed {
+        margin: 40px 0;
+    }
+    .accordian-card.active {
+        padding: 30px 14px 60px;
+    }
+    .accordian-card.active h2 {
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .accordian-card.active p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 15px 0 25px;
+    }
+    .accordian-card h2 {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    .accordian-card a img {
+        width: 22px;
+    }
+    .custom-card p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 5px 0 13px;
+    }
+    section.get-in-touch .contact-form h2 {
+        font-size: 40px !important;
+        font-weight: 600;
+        line-height: 80px !important;
+        text-align: center;
+    }
+    .contact-form form label {
+        width: 100%;
+    }
+    footer.main-ftr .inr-ftr-logo {
+        width: 100%;
+    }
+    section.get-in-touch {
+        background: #FEFCEF;
+        padding: 40px 0;
+    }
+    section.faqs-main {
+        margin: 40px 0 0;
+    }
+    .accordion-item .accordion-body {
+        font-size: 16px;
+        line-height: 26.6px;
+    }
+    .accordion-item button {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    section.industry-cards .col-lg-4:nth-child(2) {
+        margin: 20px 0;
+    }
+    section.on-hover-card-show .col-lg:hover {
+        max-width: 100% !important;
+        flex: none;
+    }
+    section.on-hover-card-show .row {
+        row-gap: 20px;
+    }
+    .container .row {
+        row-gap: 10px;
+    }
+    section.our-solution .inr-lft p, section.industry-we-serve .inr-lft p, .inr-card-over p, section.faqs-main .inr-ryt p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .inr-card-over h4 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .inr-case-data h4 {
+        font-size: 22px;
+    }
+    .inr-case-data span {
+        border: 1px solid #00312D;
+        font-size: 12px;
+    }
+    .inr-case-data {
+        position: initial;
+    }
+    .main-copyright {
+        text-align: center;
+    }
+    .main-copyright ul {
+        justify-content: center;
+    }
+    .inr-blog-post h3 {
+        font-size: 18px;
+        line-height: 26.5px;
+    }
+    section.latest-news, section.industry-we-serve, section.our-solution {
+        margin: 40px 0 40px;
+    }
+    ul.navbar-nav {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+        gap: 10px;
+        list-style: none;
+        margin: 0;
+    }
+    button.navbar-toggler {
+        background: #ffff;
+    }
+    section.meet-mag .inr-ryt-image img {
+        width: 100%;
+        min-height: auto;
+    }
+    section.our-machine {
+        height: auto;
+        padding: 60px 10px;
+    }
+    .inr-case-data {
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 10px;
+    }
+    .solution-and-feature-inr {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inr-job-cards, .btm-data-position {
+        flex-wrap: wrap;
+    }
+    .inr-job-cards .ryt a, .btm-data-position a {
+        display: inline-block;
+    }
+    .inr-position-search .inr-select {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .back-bg-postion .inr-position-search {
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .back-bg-postion .inr-select select {
+        width: 100%;
+    }
+    .inr-search-bar label, .back-bg-postion .inr-search-bar label {
+        width: 100%;
+    }
+    .btm-data-position p {
+        width: 100%;
+    }
+    section.main-position {
+        padding: 40px 0;
+    }
+    section.main-position .accordion-header button {
+        background: #ffffff0d !important;
+        box-shadow: none !important;
+    }
+    section.main-position .accordion-header {
+        background: #ffffff0d !important;
+        box-shadow: none !important;
+    }
+    .inr-main-gallery span img {
+        height: 50px;
+        width: 50px;
+    }
+    .inr-main-gallery .four-icons, .inr-main-gallery .five-icons, .three-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .inr-main-gallery span {
+        width: 100%;
+    }
+    section.main-banner-about, section.main-mission-vision, section.main-customer {
+        margin: 40px 0;
+    }
+    .timeline-bg, section.main-customer, section.main-clientsay, section.case-study.for-blog {
+        padding: 40px 0;
+    }
+    .solution-and-feature-inr .lft-data .inr-data {
+        max-width: 100%;
+    }
+    .solution-and-feature-inr .cards, .solution-and-feature-inr .cards img {
+        width: 100%;
+    }
+    section.mainctc .inr-ctc {
+        padding: 40px 20px; 
+        min-height: auto;
+        margin: 40px 0;
+        flex-wrap: wrap;
+    }
+    .industry-main .inr-paln-data h3 {
+        font-size: 16px;
+    }
+    section.pre-build-main .main-bg {
+        padding: 40px 20px;
+        margin: 40px 0;
+    }
+    section.support-banner {
+        margin: 40px 0;
+    }
+    .bnner-heading h4 {
+        font-size: 24px;
+    }
+    .inr-main-bread {
+        font-size: 12px;
+    }
+    .inr-pagenation {
+        gap: 10px;
+    }
+    .inr-pagenation button img {
+        width: 22px;
+    }
+    .inr-pagenation span {
+        font-size: 18px;
+        line-height: 32px;
+        width: 32px;
+        height: 32px;
+    }
+    .blog-listing {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section.main-banner .inr-banner .max-content h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .inr-search-bar {
+        padding: 0 10px;
+        width: calc(100% - 0px);
+        flex-wrap: wrap;
+    }
+    .inr-search-bar select {
+        width: 100%;
+    }
+    .tags-category {
+        flex-wrap: wrap;
+        gap: 0px !important;
+        margin-bottom: 0 !important;
+    }
+    .inr-blog-post span {
+        margin: 20px 0 0;
+    }
+    .inr-blog-post h3 {
+        margin-top: 20px;
+    }
+    .inr-breadcrumb h1 {
+        font-size: 38px;
+    }
+    section.breadcrumb {
+        margin: 40px 0;
+    }
+    body .single-tags {
+        gap: 10px !important;
+        margin: 40px auto !important;
+        padding: 20px 10px;
+    }
+    section.main-customer.partner {
+        margin-top: 0;
+    }
+    .contact-form h3 {
+        font-size: 34px;
+    }
+    section.get-in-touch.product, section.faqs-main.industry {  
+        padding: 40px 0;
+    }
+    section.support-partner p {
+        font-size: 18px;
+    }
+    section.support-partner {
+        margin: 40px 0;
+    }
+    .three-col {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .inr-bnanner-text h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .custom-card {
+        min-height: auto !important;
+    }
+    section.diployment-process-main .btm-btns {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    section.on-hover-card-show .col-lg .end-of-line {
+        min-height: auto;
+    }
+    section.breadcrumb .inr-breadcrumb .d-flex {
+        flex-wrap: wrap;
+    }
+    section.breadcrumb .inr-search-bar {
+        margin: 0 0 20px;
+    }
+    section.automate-eol-main {
+        margin: 40px 0;
+    }
+    section.faqs-main.industry {
+        margin: 40px 0;
+    }
+    .inr-banner-single {
+        margin-top: 40px;
+    }
+    img.share-btn {
+        position: initial !important;
+        width: 42px;
+    }
+    section.main-top-single-data .inr-lft-data h2 {
+        line-height: 42px !important;
+    }
+    .inr-impact h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    section.main-impact .inr-impact {
+        min-height: auto !important;
+        padding: 20px;
+    }
+    section.main-conclusion {
+        margin-top: 40px;
+    }
+    section.main-impact {
+        margin: 40px 0 0;
+    }
+    section.main-impact .top-heading {
+        margin-bottom: 0px;
+    }
+    section.get-in-touch .inr-grid-data {
+        grid-template-columns: auto;
+    }
+    section.get-in-touch .inr-grid-data .inr-form form .inr-grid-tbl {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section.get-in-touch .inr-grid-data .inr-form {
+        padding: 50px 20px;
+    }
+    section.location-card {
+        margin: 40px 0;
+    }
+    .inr-bnanner-text.btm-btn-location a {
+        width: 100%;
+        text-align: center;
+    }
+    .inr-bnanner-text.btm-btn-location {
+        margin-top: 30px;
+    }
+    .location-card-data {
+        min-height: auto;
+        margin: 20px auto 0;
+    }
+    .solution-and-feature-inr .inr-data h2 {
+        font-size: 38px !important;
+        line-height: 48px !important;
+    }
+    .tab-pane .accordion-button::after{
+        display: none;
+    }
+    .inr-blog-post {
+        background: #F6F9F6;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+    section.why-meet-mag .two-cards h3 {
+        font-size: 32.71px;
+        line-height: 43.63px;
+    }
+    section.why-meet-mag .two-cards p {
+        font-size: 16px;
+    }
+    a.navbar-brand {
+        width: 120px;
+    }
+    section.SYNCOS {
+        margin-top: 40px;
+    }
+    .col-md-4.ps-0, .col-md-8.pe-0 {
+        padding: 0 10px !important;
+    }
+    .accordion-body h2 {
+        font-size: 32px !important;
+    }
+    section.faqs-main.single-case .accordion-body .inr-data button {
+        font-size: 16px;
+    }
+    .accordion-item .accordion-body ul {
+        gap: 10px;
+    }
+    .inr-ryt p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    section.meet-mag.product-mag h2 {
+        font-size: 26px !important;
+        line-height: normal !important;
+    }
+    .inr-case-data {
+        padding: 20px;
+    }
+    .inr-case-data img {
+        width: 100px;
+    }
+    .demand-inr h3 {
+        font-size: 20px;
+    }
+    ul li, p {
+        font-size: 16px !important;
+    }
+    .inr-time {
+        display: none;
+    }
+    ul.dropdown-menu.mega-menu.show {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .accordion-item button {
+        padding-right: 35px !important;
+    }
+    .social-icons {
+        margin-top: 20px !important  ;
+    }
+    footer.main-ftr .inr-ftr-logo img {
+        width: 60% !important;
+    }
+    .inr-ftr-logo nav ul {
+        gap: 5px !important;
+        margin-bottom: 30px !important;
+    }
+    .inr-main-gallery.new-gallery span img {
+        height: 50px !important;
+        width: 100px !important;
+    }
+    footer.main-ftr .inr-ftr-logo a img {
+        width: 34px !important;
+    }
+}
+
+
+@media (max-width:991px){
+    .main-header li.nav-item.active {
+        border-radius: 0;
+        width: 100%;
+    }
+    div#navbarSupportedContent {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        background: #00312d;
+        padding: 0 20px 40px;
+        overflow-y: auto;
+    }
+    div#navbarSupportedContent a.nav-link.dropdown-toggle.show ul.dropdown-menu.show {
+        position: initial !important;
+        display: block !important;
+    }
+    .main-header li.nav-item.active {
+        padding: 10px;
+    }
+}
+
+
+@media(min-width:1025px) and (max-width:1700px){
+    .container {
+        padding: 0 50px !important;
+    }
+}
+@media(min-width:1025px) and (max-width:1530px){
+    .custom-card {
+        min-height: 450px;
+    }
+}
+@media(min-width:1441px){
+.main-adderss {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+section.meet-mag .inr-ryt-image img {
+    width: 100%;
+    min-height: 604px;
+}
+section.meet-mag.product .custom-card {
+    min-height: 400px;
+    height: 100%;
+}
+body.partner-with-us-body section.meet-mag.product .custom-card {
+    min-height: 360px;
+    height: 100%;
+}
+}
+@media(min-width:1025px) {
+    section.on-hover-card-show .col-lg .end-of-line.active {
+        min-width: 426px;
+    }
+    section.main-position li.nav-item button {
+        width: 110px;
+    }
+}
+@media(min-width:1920px) {
+    div#navbarSupportedContent a {
+        text-decoration: none;
+        font-size: 22px;
+    }
+}
