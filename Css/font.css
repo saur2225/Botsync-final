@@ -8,6 +8,7 @@
          url('../fonts/Namian-Regular.svg#Namian-Regular') format('svg'); /* Legacy iOS */
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Namian-Medium';
@@ -19,6 +20,7 @@
          url('../fonts/Namian-Medium.svg#Namian-Regular') format('svg'); /* Legacy iOS */
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Namian-Semibold';
@@ -30,6 +32,7 @@
          url('../fonts/Namian-Semibold.svg#Namian-Regular') format('svg'); /* Legacy iOS */
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Namian-Bold';
@@ -41,6 +44,7 @@
          url('../fonts/Namian-Bold.svg#Namian-Regular') format('svg'); /* Legacy iOS */
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Namian-ExtraBold';
@@ -52,4 +56,5 @@
          url('../fonts/Namian-ExtraBold.svg#Namian-Regular') format('svg'); /* Legacy iOS */
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
